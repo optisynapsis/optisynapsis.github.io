@@ -1,0 +1,37 @@
+body {
+    font-family: Geneva;
+    background-color: #f4f4f4;
+}
+
+.chat, .header {
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: white;
+}
+
+.user, .assistant {
+    margin-bottom: 10px;
+}
+
+.user {
+    text-align: left;
+}
+
+.assistant {
+    text-align: left;
+}
+
+.content {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #eee;
+}
+
+pre code {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    display: block;
+    padding: 10px;
+    overflow-x: auto;
+}
